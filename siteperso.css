@@ -1,0 +1,151 @@
+*
+{
+	box-sizing: border-box;
+	font-family: serif;
+}
+
+#entete
+{
+	position: absolute;
+	left:0%;
+	top:0%;
+	width: 3%;
+	height: 100%;
+	background-color: #D65DB1;	
+}
+#menu
+{
+	position: absolute;
+	left: 3%;
+	top: 0%;
+	width: 22%;
+	height: 100%;
+	text-align: ;
+	background-color: lightgrey ;
+	color:black ;
+	border-right: solid 2px floralwhite;
+}
+#corps
+{
+	position: sticky;
+	left: 27%;
+	top: 0%;
+	width:75%;
+	height: 100%;
+	color: black;
+	background-color: white;	
+}
+.anne
+{
+	white-space: pre-wrap;
+	/*text-align: right;*/
+	color: #D65DB1;
+}
+.conteneur-barre
+{
+	flex: 0 0 100%;
+	height: 0.5em;
+	margin-bottom: 0.25em;
+	border-radius: 5px;
+	background-color: white ;
+}
+.barre
+{
+	display: block;
+	height: 100%;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.c100
+{
+	width: 100%;
+	background-color: #D65DB1;
+}
+.c50
+{
+	width: 50%;
+	background-color: #D65DB1;
+}
+h1 
+{
+	color: #D65DB1;
+}
+#photo
+{
+  background-image: sokhna.jpg;
+  width: 350px;
+  height: 350px;
+  border-bottom-left-radius: 50px;
+  border: solid #D65DB1 3px;
+}
+#cops
+{
+  position: sticky;
+	left: 27%;
+	top: 0%;
+	width:75%;
+	height: 100%;
+	color: black;
+	background-color: white;
+}
+#pied
+{
+	position: absolute;
+	left: 0%;
+	bottom: 0%;
+	width: 100%;
+	height: 6%;
+	text-align: center;
+	background-color: #D65DB1;
+	color: white;
+	font-size: 1em;
+	padding-top: 1%;
+}
+#cake
+{
+color:black;
+background-color:white;
+background-image:url(cake.jfif);
+}
+#fondant
+{
+color:black;
+background-color:white;
+background-image:url(fondante.jfif);
+}
+#clafoutis
+{
+color:black;
+background-color:white;
+background-image:url(clafoutisc.jfif);
+}
+#yaourt
+{
+color:black;
+background-color:white;
+background-image:url(gateaux.jfif);
+}
+#tarte
+{
+color:black;
+background-color:white;
+background-image:url(tartes.jfif);
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+}
